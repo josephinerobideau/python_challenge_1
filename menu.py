@@ -118,12 +118,12 @@ while place_order:
                     }
                     i += 1
             # 2. Ask customer to input menu item number
+            menu_selection = int(input("Type the item number of the item you would like to order. "))
 
-
-            # 3. Check if the customer typed a number
-
+            # 3. Check if the customer typed a numbern
+            if menu_selection.isdidgit():
                 # Convert the menu selection to an integer
-
+            menu_selection = int(menu_selection)
 
                 # 4. Check if the menu selection is in the menu items
 
